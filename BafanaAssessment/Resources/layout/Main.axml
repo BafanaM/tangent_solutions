@@ -23,6 +23,7 @@
         android:layout_weight="15"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:background="@drawable/SignInBtnStyle"
         android:id="@+id/create_account_btn" />
     <TextView
         android:text="OR"
@@ -34,11 +35,12 @@
         android:textColor="#000"
         android:id="@+id/or_tv" />
     <Button
-        android:text="REGISTER"
+        android:text="SIGN UP"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:background="@drawable/SignUpBtnStyle"
         android:id="@+id/register_account_btn" />
 </LinearLayout>
