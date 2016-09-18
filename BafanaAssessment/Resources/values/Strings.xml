@@ -2,4 +2,6 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">BafanaAssessment</string>
+  <string name="openDrawer">Drawer open</string>
+  <string name="closeDrawer">Drawer closed</string>
 </resources>

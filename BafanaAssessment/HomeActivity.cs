@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 using Android.Support.V7.App;
+using Android.Support.V4.Widget;
 
 namespace BafanaAssessment
 {
@@ -19,6 +20,9 @@ namespace BafanaAssessment
     {
 
         private SupportToolbar mToolbar;
+        private ActionBarDrawerToggle mDrawerToggle;
+        private DrawerLayout mDrawerLayout;
+        private ListView mListView;
 
   
         protected override void OnCreate(Bundle savedInstanceState)
@@ -27,10 +31,34 @@ namespace BafanaAssessment
             SetContentView(Resource.Layout.Home_Activity);
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
+            mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer);
+            mListView = FindViewById<ListView>(Resource.Id.drawer_list);
             SetSupportActionBar(mToolbar);
-            // Create your application here
+
+            mDrawerToggle = new ActionBarDrawerToggle(
+
+              this,
+              mDrawerLayout,
+              Resource.String.openDrawer,
+              Resource.String.closeDrawer);
+
+            mDrawerLayout.AddDrawerListener(mDrawerToggle);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+     
+           // SupportActionBar.setHomeAsUpIndicator(R.drawable.ic_drawer);
 
 
+            mDrawerToggle.SyncState(); 
+        }
+
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+
+            mDrawerToggle.OnOptionsItemSelected(item);
+            return base.OnOptionsItemSelected(item);
         }
     }
 }

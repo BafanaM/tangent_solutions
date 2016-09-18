@@ -1447,16 +1447,19 @@ namespace BafanaAssessment
 			public const int edit_text_style = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int Icon = 2130837580;
-			
-			// aapt resource value: 0x7f02004f
-			public const int notification_template_icon_bg = 2130837583;
+			public const int ic_menu_white_24dp = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int SignInBtnStyle = 2130837581;
+			public const int Icon = 2130837581;
+			
+			// aapt resource value: 0x7f020050
+			public const int notification_template_icon_bg = 2130837584;
 			
 			// aapt resource value: 0x7f02004e
-			public const int SignUpBtnStyle = 2130837582;
+			public const int SignInBtnStyle = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int SignUpBtnStyle = 2130837583;
 			
 			static Drawable()
 			{
@@ -2028,6 +2031,12 @@ namespace BafanaAssessment
 			
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
+			
+			// aapt resource value: 0x7f050017
+			public const int closeDrawer = 2131034135;
+			
+			// aapt resource value: 0x7f050016
+			public const int openDrawer = 2131034134;
 			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;
