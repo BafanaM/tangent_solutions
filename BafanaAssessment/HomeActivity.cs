@@ -12,6 +12,7 @@ using Android.Widget;
 using SupportToolbar = Android.Support.V7.Widget.Toolbar;
 using Android.Support.V7.App;
 using Android.Support.V4.Widget;
+using System.Net;
 
 namespace BafanaAssessment
 {
@@ -24,13 +25,18 @@ namespace BafanaAssessment
         private DrawerLayout mDrawerLayout;
         private ListView mListView;
         private ArrayAdapter mListAdapter;
-        private List<String> mListDataSet;
+        private List<string> mListDataSet;
+        private WebClient mWebClient;
+        private Uri mUrl;
 
   
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Home_Activity);
+
+            mWebClient = new WebClient();
+            mUrl = new Uri("")
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer);
