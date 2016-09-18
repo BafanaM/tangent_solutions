@@ -21,5 +21,16 @@ namespace BafanaAssessment
             var view = inflater.Inflate(Resource.Layout.DialogSignUpLayout,container,false);
             return view;
         }
+
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            //Removes title bar
+            Dialog.Window.RequestFeature(WindowFeatures.NoTitle);
+
+            base.OnActivityCreated(savedInstanceState);
+
+            //Calls the animation style
+            Dialog.Window.Attributes.WindowAnimations = Resource.Style.dialog_animation;
+        }
     }
 }
