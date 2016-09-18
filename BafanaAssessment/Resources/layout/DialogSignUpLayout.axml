@@ -14,6 +14,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="25dp"
+        android:textColorHint="#858585"
         android:hint="First Name"
         android:paddingLeft="10dp"
         android:textColor="#000" />
@@ -27,6 +28,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:textColorHint="#858585"
         android:hint="Email"
         android:paddingLeft="10dp"
         android:textColor="#000" />
@@ -38,6 +40,7 @@
         android:background="@drawable/edit_text_style"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:textColorHint="#858585"
         android:hint="Password"
         android:paddingLeft="10dp"
         android:textColor="#000"
