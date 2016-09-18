@@ -23,6 +23,8 @@ namespace BafanaAssessment
         private ActionBarDrawerToggle mDrawerToggle;
         private DrawerLayout mDrawerLayout;
         private ListView mListView;
+        private ArrayAdapter mListAdapter;
+        private List<String> mListDataSet;
 
   
         protected override void OnCreate(Bundle savedInstanceState)
@@ -34,6 +36,16 @@ namespace BafanaAssessment
             mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer);
             mListView = FindViewById<ListView>(Resource.Id.drawer_list);
             SetSupportActionBar(mToolbar);
+
+            mListDataSet = new List<string>();
+            mListDataSet.Add("Bafana");
+            mListDataSet.Add("Mankahla");
+            mListDataSet.Add("First");
+            mListDataSet.Add("Xamarin");
+            mListDataSet.Add("Project");
+
+            mListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, mListDataSet);
+            mListView.Adapter = mListAdapter;
 
             mDrawerToggle = new ActionBarDrawerToggle(
 
