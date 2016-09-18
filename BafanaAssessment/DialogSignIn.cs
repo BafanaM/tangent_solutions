@@ -12,20 +12,20 @@ using Android.Widget;
 
 namespace BafanaAssessment
 {
-    class DialogSignUp : DialogFragment
+    class DialogSignIn : DialogFragment
     {
 
         //private EditText mFirstName;
         //private EditText mEmail;
         //private EditText mPassword;
-        private Button mSignUp;
+        private Button mSignIn;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-             base.OnCreateView(inflater, container, savedInstanceState);
+            base.OnCreateView(inflater, container, savedInstanceState);
 
-            var view = inflater.Inflate(Resource.Layout.DialogSignUpLayout,container,false);
+            var view = inflater.Inflate(Resource.Layout.DialogSignInLayout, container, false);
 
-            mSignUp = view.FindViewById<Button>(Resource.Id.dialog_signup_btn);
+            mSignIn = view.FindViewById<Button>(Resource.Id.dialog_signin_btn);
 
             //mFirstName = view.FindViewById<EditText>(Resource.Id.first_name_ed);
             //mEmail = view.FindViewById<EditText>(Resource.Id.email_ed);
@@ -41,7 +41,7 @@ namespace BafanaAssessment
 
             // };
 
-            mSignUp.Click += (object sender, EventArgs args) => {
+            mSignIn.Click += (object sender, EventArgs args) => {
 
                 var intent = new Intent(this.Activity, typeof(HomeActivity));
                 StartActivity(intent);
@@ -52,15 +52,6 @@ namespace BafanaAssessment
 
             return view;
         }
-
-        //private void mSignUp_Click(object sender, EventArgs e)
-        //{
-            //SignUp button events
-
-            //var intent = new Intent(this.Activity, typeof(HomeActivity));
-            //StartActivity(intent);
-            //StartActivity(typeof(HomeActivity));
-        //}
 
         public override void OnActivityCreated(Bundle savedInstanceState)
         {

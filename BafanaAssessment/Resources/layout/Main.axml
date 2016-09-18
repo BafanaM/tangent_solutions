@@ -24,7 +24,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/SignInBtnStyle"
-        android:id="@+id/create_account_btn" />
+        android:id="@+id/sign_in_btn" />
     <TextView
         android:text="OR"
         android:textAppearance="?android:attr/textAppearanceMedium"

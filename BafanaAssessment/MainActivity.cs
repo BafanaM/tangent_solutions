@@ -13,6 +13,7 @@ namespace BafanaAssessment
     {
 
         private Button mSignUpButton;
+        private Button mSignInButton;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -20,6 +21,8 @@ namespace BafanaAssessment
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            mSignInButton = FindViewById<Button>(Resource.Id.sign_in_btn);
 
             mSignUpButton = FindViewById<Button>(Resource.Id.register_account_btn);
 
@@ -29,6 +32,15 @@ namespace BafanaAssessment
                 FragmentTransaction transaction = FragmentManager.BeginTransaction();
                 DialogSignUp signUpDialog = new DialogSignUp();
                 signUpDialog.Show(transaction, "Dialog Sign Up");
+
+            };
+
+            mSignInButton.Click += (object sender, EventArgs args) => {
+
+                //Call Dialog Sign Up
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                DialogSignIn signInDialog = new DialogSignIn();
+                signInDialog.Show(transaction, "Dialog Sign In");
 
             };
 

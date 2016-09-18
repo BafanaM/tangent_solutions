@@ -32,7 +32,7 @@ namespace BafanaAssessment
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int slide_right = 2130968576;
+			public const int slide_down = 2130968576;
 			
 			// aapt resource value: 0x7f040001
 			public const int slide_up = 2130968577;
@@ -88,29 +88,35 @@ namespace BafanaAssessment
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070002
+			public const int dialog_signin_btn = 2131165186;
+			
 			// aapt resource value: 0x7f070005
-			public const int create_account_btn = 2131165189;
-			
-			// aapt resource value: 0x7f070003
-			public const int dialog_email_btn = 2131165187;
-			
-			// aapt resource value: 0x7f070001
-			public const int email_ed = 2131165185;
-			
-			// aapt resource value: 0x7f070000
-			public const int first_name_ed = 2131165184;
+			public const int dialog_signup_btn = 2131165189;
 			
 			// aapt resource value: 0x7f070004
-			public const int login_account_tv = 2131165188;
+			public const int email_ed = 2131165188;
+			
+			// aapt resource value: 0x7f070000
+			public const int email_signin_et = 2131165184;
+			
+			// aapt resource value: 0x7f070003
+			public const int first_name_ed = 2131165187;
 			
 			// aapt resource value: 0x7f070006
-			public const int or_tv = 2131165190;
+			public const int login_account_tv = 2131165190;
 			
-			// aapt resource value: 0x7f070002
-			public const int password_ed = 2131165186;
+			// aapt resource value: 0x7f070008
+			public const int or_tv = 2131165192;
+			
+			// aapt resource value: 0x7f070001
+			public const int password_ed = 2131165185;
+			
+			// aapt resource value: 0x7f070009
+			public const int register_account_btn = 2131165193;
 			
 			// aapt resource value: 0x7f070007
-			public const int register_account_btn = 2131165191;
+			public const int sign_in_btn = 2131165191;
 			
 			static Id()
 			{
@@ -126,10 +132,16 @@ namespace BafanaAssessment
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int DialogSignUpLayout = 2130903040;
+			public const int DialogSignInLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int DialogSignUpLayout = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Home_Activity = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
 			
 			static Layout()
 			{
