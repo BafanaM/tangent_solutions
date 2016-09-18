@@ -12,6 +12,8 @@ namespace BafanaAssessment
     public class MainActivity : Activity
     {
 
+        private Button mSignUpButton;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -19,11 +21,17 @@ namespace BafanaAssessment
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            //Button button = FindViewById<Button>(Resource.Id.MyButton);
+            mSignUpButton = FindViewById<Button>(Resource.Id.register_account_btn);
 
-           // button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            mSignUpButton.Click += (object sender, EventArgs args) => {
+
+                //Call Dialog Sign Up
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                DialogSignUp signUpDialog = new DialogSignUp();
+                signUpDialog.Show(transaction, "Dialog Sign Up");
+
+            };
+
         }
     }
 }
