@@ -1474,8 +1474,8 @@ namespace BafanaAssessment
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b005d
-			public const int action0 = 2131427421;
+			// aapt resource value: 0x7f0b005e
+			public const int action0 = 2131427422;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int action_bar = 2131427393;
@@ -1501,8 +1501,8 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0042
 			public const int action_context_bar = 2131427394;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int action_divider = 2131427425;
+			// aapt resource value: 0x7f0b0062
+			public const int action_divider = 2131427426;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1534,14 +1534,14 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int cancel_action = 2131427422;
+			// aapt resource value: 0x7f0b005f
+			public const int cancel_action = 2131427423;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int chronometer = 2131427428;
+			// aapt resource value: 0x7f0b0065
+			public const int chronometer = 2131427429;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
@@ -1588,8 +1588,8 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int end_padder = 2131427433;
+			// aapt resource value: 0x7f0b006a
+			public const int end_padder = 2131427434;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int expand_activities_button = 2131427365;
@@ -1615,14 +1615,14 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0026
 			public const int image = 2131427366;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int info = 2131427432;
+			// aapt resource value: 0x7f0b0069
+			public const int info = 2131427433;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int line1 = 2131427426;
+			// aapt resource value: 0x7f0b0063
+			public const int line1 = 2131427427;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int line3 = 2131427430;
+			// aapt resource value: 0x7f0b0067
+			public const int line3 = 2131427431;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1630,11 +1630,11 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0028
 			public const int list_item = 2131427368;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int login_account_tv = 2131427417;
+			// aapt resource value: 0x7f0b005a
+			public const int login_account_tv = 2131427418;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int media_actions = 2131427424;
+			// aapt resource value: 0x7f0b0061
+			public const int media_actions = 2131427425;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -1651,8 +1651,8 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int or_tv = 2131427419;
+			// aapt resource value: 0x7f0b005c
+			public const int or_tv = 2131427420;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int parentPanel = 2131427373;
@@ -1666,11 +1666,14 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0006
 			public const int progress_horizontal = 2131427334;
 			
+			// aapt resource value: 0x7f0b0059
+			public const int project_list = 2131427417;
+			
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int register_account_btn = 2131427420;
+			// aapt resource value: 0x7f0b005d
+			public const int register_account_btn = 2131427421;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -1729,8 +1732,8 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0011
 			public const int showTitle = 2131427345;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int sign_in_btn = 2131427418;
+			// aapt resource value: 0x7f0b005b
+			public const int sign_in_btn = 2131427419;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int spacer = 2131427372;
@@ -1747,8 +1750,8 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int status_bar_latest_event_content = 2131427423;
+			// aapt resource value: 0x7f0b0060
+			public const int status_bar_latest_event_content = 2131427424;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int submit_area = 2131427404;
@@ -1756,17 +1759,17 @@ namespace BafanaAssessment
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int text = 2131427431;
+			// aapt resource value: 0x7f0b0068
+			public const int text = 2131427432;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int text2 = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int text2 = 2131427430;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int time = 2131427427;
+			// aapt resource value: 0x7f0b0064
+			public const int time = 2131427428;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;

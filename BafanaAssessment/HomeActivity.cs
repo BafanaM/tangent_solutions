@@ -27,7 +27,7 @@ namespace BafanaAssessment
         private ArrayAdapter mListAdapter;
         private List<string> mListDataSet;
         private WebClient mWebClient;
-        private Uri mUrl;
+        private Uri mUrlProject;
 
   
         protected override void OnCreate(Bundle savedInstanceState)
@@ -36,7 +36,11 @@ namespace BafanaAssessment
             SetContentView(Resource.Layout.Home_Activity);
 
             mWebClient = new WebClient();
-            mUrl = new Uri("")
+            mUrlProject = new Uri("http://projectservice.staging.tangentmicroservices.com:80/api/v1/projects/");
+            mWebClient.DownloadDataAsync(mUrlProject);
+
+            //Calls php file
+           // mWebClient.DownloadDataCompleted += mWebClient_DownloadDataCompleted;
 
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer);
@@ -71,7 +75,7 @@ namespace BafanaAssessment
             mDrawerToggle.SyncState(); 
         }
 
-
+  
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
 

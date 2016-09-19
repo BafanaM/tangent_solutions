@@ -39,4 +39,14 @@
             android:dividerHeight="1dp"
             android:background="#E3F2FD" />
     </android.support.v4.widget.DrawerLayout>
+
+        <ListView
+            android:id="@+id/project_list"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="#818181"
+            android:dividerHeight="1dp"
+            android:background="#E3F2FD" />
 </LinearLayout>
