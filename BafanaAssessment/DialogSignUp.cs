@@ -15,9 +15,9 @@ namespace BafanaAssessment
     class DialogSignUp : DialogFragment
     {
 
-        //private EditText mFirstName;
-        //private EditText mEmail;
-        //private EditText mPassword;
+        private EditText mFirstName;
+        private EditText mEmail;
+        private EditText mPassword;
         private Button mSignUp;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -27,10 +27,10 @@ namespace BafanaAssessment
 
             mSignUp = view.FindViewById<Button>(Resource.Id.dialog_signup_btn);
 
-            //mFirstName = view.FindViewById<EditText>(Resource.Id.first_name_ed);
-            //mEmail = view.FindViewById<EditText>(Resource.Id.email_ed);
-            //mPassword = view.FindViewById<EditText>(Resource.Id.password_ed);
-            //mSignUp = view.FindViewById<Button>(Resource.Id.create_account_btn);
+            mFirstName = view.FindViewById<EditText>(Resource.Id.first_name_ed);
+            mEmail = view.FindViewById<EditText>(Resource.Id.email_ed);
+            mPassword = view.FindViewById<EditText>(Resource.Id.password_ed);
+            mSignUp = view.FindViewById<Button>(Resource.Id.dialog_signup_btn);
 
             //mSignUp.Click += mSignUp_Click;
 
